@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
       alignment: Alignment.center,
       child: new Column(
         children: <Widget>[
-          new Text('Welcome to App!'),
+          new Text('Welcome to this App!'),
           new FlatButton(
             child: new Text(
               'Logout'
