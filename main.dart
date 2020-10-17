@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => new Scaffold(
     appBar: new AppBar(
-      title: new Text('Here is your Homepage'),
+      title: new Text('Here is your Homepages'),
     ),
     body: new Container(
       margin: new EdgeInsets.only(
@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
       alignment: Alignment.center,
       child: new Column(
         children: <Widget>[
-          new Text('Welcome to this App!'),
+          new Text('Welcome to App!'),
           new FlatButton(
             child: new Text(
               'Logout'
